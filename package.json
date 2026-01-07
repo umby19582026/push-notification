@@ -1,0 +1,24 @@
+{
+  "name": "push-notification-pwa",
+  "version": "1.0.0",
+  "description": "PWA per ricevere notifiche push da PC",
+  "main": "server.js",
+  "keywords": ["pwa", "push", "notifications"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "web-push": "^3.6.6",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
+
